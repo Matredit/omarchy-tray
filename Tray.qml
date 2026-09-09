@@ -269,8 +269,8 @@ BarWidget {
           width: implicitWidth
           height: implicitHeight
           x: root.drawerExtent - root.revealExtent
-          text: root.drawerCount > 0 ? "\uf053" : "\uf141"
-          opacity: root.drawerCount > 0 ? 1 : 0.5
+          text: "\uf053"
+          opacity: root.drawerCount > 0 ? 1 : 0.4
           onPressed: function(button) {
             if (button === Qt.RightButton) root.managePopupOpen = !root.managePopupOpen
           }
@@ -352,9 +352,9 @@ BarWidget {
           width: implicitWidth
           height: implicitHeight
           y: root.drawerExtent - root.revealExtent
-          text: root.drawerCount > 0 ? "\uf053" : "\uf142"
+          text: "\uf053"
           textRotation: 90
-          opacity: root.drawerCount > 0 ? 1 : 0.5
+          opacity: root.drawerCount > 0 ? 1 : 0.4
           onPressed: function(button) {
             if (button === Qt.RightButton) root.managePopupOpen = !root.managePopupOpen
           }
